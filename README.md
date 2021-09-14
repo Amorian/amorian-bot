@@ -1,0 +1,4 @@
+# AmorianBot
+
+* discord.js
+* docker

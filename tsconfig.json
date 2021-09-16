@@ -1,25 +1,16 @@
 {
-    "compilerOptions": {
-      "module": "CommonJS",
-      "moduleResolution": "Node",
-      "target": "ES2021",
-      "lib": [
-        "DOM",
-        "ES2021"
-      ],
-      "sourceMap": true,
-      "types": [
-        "node",
-        "reflect-metadata"
-      ],
-      "typeRoots": [
-        "node_modules/@types"
-      ],
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "resolveJsonModule": true
-    },
-    "exclude": [
-      "node_modules"
-    ]
-  }
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES2021",
+    "lib": ["DOM", "ES2021"],
+    "sourceMap": true,
+    "types": ["node", "reflect-metadata"],
+    "typeRoots": ["node_modules/@types"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
